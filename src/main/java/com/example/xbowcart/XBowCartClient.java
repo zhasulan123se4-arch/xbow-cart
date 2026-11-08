@@ -117,7 +117,7 @@ public class XBowCartClient implements ClientModInitializer {
         boolean useF = (mode == Ignite.FLINT || (mode == Ignite.AUTO && !useX)) && flint >= 0;
         boolean useL = (mode == Ignite.LAVA || (mode == Ignite.AUTO && !useX && !useF)) && lava >= 0;
 
-        if (useX) {
+        if (useX) {aimAt(p, cart.getPos().add(0, 0.4, 0)); aimAt(p, new Vec3d(cart.getX(), cart.getY() + 0.4, cart.getZ()));
             p.getInventory().setSelectedSlot(xbow);
             aimAt(p, cart.getPos().add(0, 0.4, 0));
             mc.interactionManager.interactItem(p, Hand.MAIN_HAND);
