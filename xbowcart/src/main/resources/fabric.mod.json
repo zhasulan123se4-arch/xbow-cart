@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "xbowcart",
+  "version": "${version}",
+  "name": "X-Bow Cart",
+  "description": "Автоматически ставит рельсу, TNT-вагонетку и поджигает её (арбалет / огниво / лава).",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.xbowcart.XBowCartClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
