@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "xbowcart",
+  "version": "1.0.0",
+  "name": "X-Bow Cart",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.xbowcart.XBowCartClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
